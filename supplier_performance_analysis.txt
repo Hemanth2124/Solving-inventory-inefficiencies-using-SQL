@@ -1,0 +1,18 @@
+
+--- Supplier Performance Inconsistencies (Simplified) ---
+
+Products with significant positive discrepancy (Ordered > Sold - potential overstock or delayed delivery):
+   Product ID  Category  ...  total_units_sold  order_fulfillment_discrepancy
+29      P0187  Clothing  ...            385583                            363
+
+[1 rows x 5 columns]
+
+Products with significant negative discrepancy (Sold > Ordered - potential stockout or under-ordering):
+   Product ID     Category  ...  total_units_sold  order_fulfillment_discrepancy
+23      P0159  Electronics  ...            322605                          -3191
+21      P0149    Furniture  ...            338505                          -2915
+15      P0096         Toys  ...            339338                          -2719
+3       P0046     Clothing  ...            386805                          -2559
+25      P0171  Electronics  ...            325546                          -2521
+
+[5 rows x 5 columns]

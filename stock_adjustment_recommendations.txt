@@ -1,0 +1,22 @@
+
+--- Stock Adjustment Recommendations ---
+
+Fast-Moving Products (Consider increasing stock to avoid stockouts and meet demand):
+   Product ID  Category  ...  total_units_sold  inventory_turnover_proxy
+3       P0046  Clothing  ...            386805               2503.490111
+20      P0133  Clothing  ...            385843               2499.679520
+4       P0057  Clothing  ...            387209               2496.705962
+27      P0178  Clothing  ...            384440               2496.581255
+29      P0187  Clothing  ...            385583               2489.731406
+
+[5 rows x 5 columns]
+
+Slow-Moving Products (Consider reducing stock to lower holding costs and free up capital):
+   Product ID     Category  ...  total_units_sold  inventory_turnover_proxy
+10      P0070  Electronics  ...            320229               2324.330029
+25      P0171  Electronics  ...            325546               2342.907236
+8       P0068  Electronics  ...            317668               2345.456588
+13      P0085  Electronics  ...            320272               2345.947729
+28      P0183  Electronics  ...            325516               2351.095950
+
+[5 rows x 5 columns]

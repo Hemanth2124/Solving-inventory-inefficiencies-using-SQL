@@ -1,0 +1,3 @@
+
+--- Simple Moving Average Forecast (Next 7 Days) ---
+Estimated daily demand for the next 7 days: 15875.00 units
